@@ -28,7 +28,7 @@ namespace zadanie
         private void styczen_2023_Click(object sender, RoutedEventArgs e)
         {
             sty2023 window = new sty2023();
-            window.Show();
+            window.ShowDialog();
             this.Close();
 
         }
@@ -42,11 +42,17 @@ namespace zadanie
 
         private void czerwiec_2023_Click(object sender, RoutedEventArgs e)
         {
+            czerw2023 window = new czerw2023();
+            window.Show();
+            this.Close();
 
         }
 
         private void czwarty_plik_Click(object sender, RoutedEventArgs e)
         {
+            czwarty window = new czwarty();
+            window.Show();
+            this.Close();
 
         }
 

@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace zadanie
 {
     /// <summary>
-    /// Logika interakcji dla klasy sty2023.xaml
+    /// Logika interakcji dla klasy sty2024.xaml
     /// </summary>
-    public partial class sty2023 : Window
+    public partial class sty2024 : Window
     {
-        public sty2023()
+        public sty2024()
         {
             InitializeComponent();
         }

@@ -18,7 +18,7 @@
                 <Label FontSize="20" Content="Czerwiec 2023"></Label>
             </Button>
             <Button Height="75" Margin="0,20,0,0" Click="czwarty_plik_Click">
-                <Label FontSize="20" Content="Czerwiec 2023"></Label>
+                <Label FontSize="20" Content="Czwarty plik"></Label>
             </Button>
         </StackPanel>
     </Grid>
