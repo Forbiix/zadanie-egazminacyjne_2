@@ -24,5 +24,32 @@ namespace zadanie
         {
             InitializeComponent();
         }
+
+        private void styczen_2023_Click(object sender, RoutedEventArgs e)
+        {
+            sty2023 window = new sty2023();
+            window.Show();
+            this.Close();
+
+        }
+        private void stycznen_2024_Click(object sender, RoutedEventArgs e)
+        {
+            sty2024 window = new sty2024();
+            window.Show();
+            this.Close();
+
+        }
+
+        private void czerwiec_2023_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void czwarty_plik_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        
     }
 }

@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:zadanie"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="400">
     <Grid>
-
+        <StackPanel >
+            <Button Height="75" Margin="0,20,0,0" Click="styczen_2023_Click">
+                <Label FontSize="20" Content="Styczeń 2023"></Label>
+            </Button>
+            <Button Height="75" Margin="0,20,0,0" Click="stycznen_2024_Click">
+                <Label FontSize="20" Content="Styczeń 2024"></Label>
+            </Button>
+            <Button Height="75" Margin="0,20,0,0" Click="czerwiec_2023_Click">
+                <Label FontSize="20" Content="Czerwiec 2023"></Label>
+            </Button>
+            <Button Height="75" Margin="0,20,0,0" Click="czwarty_plik_Click">
+                <Label FontSize="20" Content="Czerwiec 2023"></Label>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>

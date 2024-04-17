@@ -1,0 +1,17 @@
+﻿<Window x:Class="zadanie.sty2023"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie"
+        mc:Ignorable="d"
+        Title="sty2023" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Button Click="powrot_click" Margin="0,20,20,0">Wróć</Button>
+        </StackPanel>
+        
+        <Label FontSize="40" Content="STYCZEŃ 2023"></Label>
+        <Button Width="400" Height="20" Content="powrót" Click="powrot_click"></Button>
+    </Grid>
+</Window>

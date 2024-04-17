@@ -13,5 +13,12 @@ namespace zadanie
     /// </summary>
     public partial class App : Application
     {
+        private void powrot_click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+            this.Close();
+
+        }
     }
 }
