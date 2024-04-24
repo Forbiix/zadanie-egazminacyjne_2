@@ -55,5 +55,34 @@ namespace zadanie
             }
 
         }
+
+        private void zatwierdz_Click(object sender, RoutedEventArgs e)
+        {
+            
+            string MIASTO = miasto.Text;
+            string KOD = kod.Text;
+            string ULICA = ulica.Text;
+            int kodint;
+            bool kodtak = int.TryParse(kod.Text, out kodint);
+            if(kod.Text.Length == 5) 
+            {
+                if (kodtak == true)
+                {
+                    MessageBox.Show($"Dane przesyłki zostały wprowadzone");
+                }
+                else
+                {
+                    MessageBox.Show($"Kod nie składa się z samych cyfr");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nieprawidłowa liczba cyfr w kodzie pocztowym");
+            }
+
+            
+            
+
+        }
     }
 }
