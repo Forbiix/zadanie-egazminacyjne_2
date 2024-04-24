@@ -9,6 +9,6 @@
     <Grid>
         
         <Label FontSize="40" Content="STYCZEŃ 2024"></Label>
-        <Button Width="50" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,25,25,0" Content="powrót" Click="powrot_click"></Button>
+        <Button Width="50" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,10,10,0" Content="powrót" Click="powrot_click"></Button>
     </Grid>
 </Window>

@@ -28,7 +28,7 @@ namespace zadanie
         private void styczen_2023_Click(object sender, RoutedEventArgs e)
         {
             sty2023 window = new sty2023();
-            window.ShowDialog();
+            window.Show();
             this.Close();
 
         }

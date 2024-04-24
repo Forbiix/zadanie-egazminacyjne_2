@@ -30,5 +30,30 @@ namespace zadanie
             this.Close();
 
         }
+
+        private void sprawdz_Click(object sender, RoutedEventArgs e)
+        {
+            double cena=0;
+           
+            if(poczt.IsChecked==true)
+            {
+                cena = 1;
+                wynik.Content = $"{cena} zł";
+                zdjecie.Source = new BitmapImage(new Uri("C:\\Users\\student\\Documents\\3ip\\git\\zadanie-egazminacyjne_2\\zadanie\\zdjecia\\pocztowka.png"));
+            }
+            if (list.IsChecked == true)
+            {
+                cena = 1.5;
+                wynik.Content = $"{cena} zł";
+                zdjecie.Source = new BitmapImage(new Uri("C:\\Users\\student\\Documents\\3ip\\git\\zadanie-egazminacyjne_2\\zadanie\\zdjecia\\list.png"));
+            }
+            if (paczka.IsChecked == true)
+            {
+                cena = 10;
+                wynik.Content = $"{cena} zł";
+                zdjecie.Source = new BitmapImage(new Uri("C:\\Users\\student\\Documents\\3ip\\git\\zadanie-egazminacyjne_2\\zadanie\\zdjecia\\paczka.png"));
+            }
+
+        }
     }
 }
